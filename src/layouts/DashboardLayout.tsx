@@ -1,5 +1,5 @@
 import { Outlet, Link, useLocation } from "react-router-dom";
-import { LayoutDashboard, Users, LogOut, Moon, Sun } from "lucide-react";
+import { LayoutDashboard, LogOut, Moon, Sun } from "lucide-react";
 import { useAuthStore } from "../store/authStore";
 import { useDarkMode } from "../hooks/useDarkMode";
 
